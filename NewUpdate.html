@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1255">
+    <meta name="author" content="">
+
+    <title>Untitled 5</title>
+</head>
+
+<body>
+<form method="get"  align="right" >
+    <table border="0" align="right" dir="rtl">
+        <?php
+ $Id=$_GET['Id'];
+ $R=$_GET['R'];
+
+ echo "<tr><td>מספר פרוייקט: </td><td><input type=\"text\" readonly=\"readonly\" name=\"txtId\" align=\"right\" value=\"". $Id. "\"/></td></tr>";
+
+        echo "<tr><td>מספר דו''ח: </td><td><input type=\"text\" name=\"txtR\" align=\"right\" value=\"". $R. "\"/></td></tr>";
+
+        echo "<tr><td></td><td><input type=\"update\" value=\"שמור\" align=\"right\"/></td></tr>";
+        ?>
+    </table>
+
+</form>
+
+
+</body>
+</html>
